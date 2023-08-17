@@ -1,0 +1,253 @@
+/* General */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Color de fondo en el navbar cuando  baja */
+.colorDropdown{
+background-color: #000000b6;
+}
+
+/* Estilos para el contenedor del carrusel */
+.swiper-container {
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  /* Estilos para los botones de navegación */
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    
+  }
+  
+  .swiper-button-prev {
+    left: 10px;
+    
+  }
+  
+  .swiper-button-next {
+    right: 10px;
+    
+  }
+  
+  /* Estilos para la paginación */
+  .swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  justify-content: center;
+  }
+  .swiper-pagination .swiper-pagination-bullet {
+    width: 30px; /* Ancho de cada línea */
+    height: 5px; /* Grosor de cada línea */
+    background-color: #ccc; /* Color de las líneas inactivas */
+    opacity: 1; /* Opacidad de las líneas inactivas */
+    margin: 0 5px; /* Espacio entre las líneas */
+    transition: opacity 0.2s ease, transform 0.2s ease; /* Transiciones */
+  }
+  
+  .swiper-pagination .swiper-pagination-bullet-active {
+   
+    transform: scale(1.5); /*Escalar la línea activa */
+    background-color: #000000; /* Color de la línea activa */
+  }
+  
+.carousel-caption h1{
+    font-family: 'Alata', sans-serif;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    color: #ffffff;
+    
+}
+.carousel-caption h5{
+    font-family: 'Alata', sans-serif;
+    text-shadow:1px 1px 2px black;
+    color: #ffffff;
+    
+}
+
+/* Estilos para el contenedor de video */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 90vh; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  
+/* fondo de la pagina */
+body{
+    
+    justify-content: flex-end;
+    background-color: #ffffff;
+}
+
+
+
+
+/* Transcision de las barra transparente a color */
+.navbar {
+    transition: all 800ms;
+}
+
+/* color del link/letras */
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+/* Contenedor de botones */
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* botones */
+.btn{
+    margin-left: 16px;
+    position: relative;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #fff;
+    text-indent: 10px;
+    z-index: 2;
+}
+/*-----------Diseño de boton y Hover----------*/
+.btn-3{
+    transition: all 0.6s ease;
+    font-family: 'Urbanist', sans-serif;  
+}
+
+.btn-3::after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 110%;
+    left: -10%;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: #40DFEF;
+    
+    transition: all 0.4s ease;
+}
+
+.btn-3::before{
+    background-color: #00000080;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    border: 3px solid #0E2954;
+    transition: all 0.4s ease;
+    z-index: -1;
+}
+
+.btn-3:hover::after{
+    background-color: #ffffff31;
+    transform: skew(20deg, 0deg) translateX(150px);
+}
+
+.btn-3:hover::before{
+    background-color: #40DFEF;
+    border: 3px solid #0E2954;
+    transform: skew(20deg, 0deg) scale(1.1);
+}
+
+/* barra de scroll */
+::-webkit-scrollbar{
+    width: 5px;
+    background: #000;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+    
+}
+/* Text */
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+.imagen_text img{
+    width: 520px;
+    max-width: 100%;
+    float: left;
+    border-radius: 10px;
+    margin-right: 15px;
+   
+}
+.text-box{
+    color: #000000;  
+    
+    font-family: 'Urbanist', sans-serif;  
+}
+.text-box h2{
+font-size: 50px;
+
+}
+.text-box p{
+    font-size: 25px;
+    
+}
+
+/* footer*/
+.logo{
+    height: 80px;
+    margin-bottom: 1rem;
+}
+footer{
+    position: relative;
+    width: 100%;
+    
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .social_icon{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px 0;
+flex-wrap: wrap;
+}
+footer .social_icon li{
+List-style: none;
+}
+footer .social_icon li a{
+font-size: 2em;
+color:#000000;
+margin: 0 10px;
+display: inline-block;
+transition: 0.3s;
+}
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+    color: #05eaff; 
+}
+.copyright{
+    
+    color: #000000;
+}
