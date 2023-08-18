@@ -101,7 +101,17 @@ body{
     font-family: 'Urbanist', sans-serif;
     justify-content: flex-end;
     background-color: #ffffff;
+    
 }
+
+body::-webkit-scrollbar {
+    width: 0rem; /* Ajusta el ancho según sea necesario */
+    background-color: transparent; /* Cambia el color de fondo si es necesario */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Cambia el color del pulgar de la barra de desplazamiento */
+  }
 
 
 .navbar {
@@ -110,6 +120,7 @@ body{
     position: fixed;
     width: 100%;
     z-index: 1000;
+    overflow: hidden;
   }
 
   .navbar-nav {
