@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@7.0.9/swiper-bundle.min.css">
     <script src="https://unpkg.com/swiper@7.0.9/swiper-bundle.min.js"></script>
 <!-- fuentes -->
+<script src="./scroll.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Urbanist:ital,wght@0,200;1,400&display=swap" rel="stylesheet">
@@ -17,7 +18,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
     <style>
       .carousel-inner {
-        border: 2px solid #000000;
+       
+        border-bottom: 3px solid #000000;
         position: relative;
       }
       #carouselExample .carousel-inner {
@@ -31,7 +33,7 @@
 
   .carousel-caption {
       position: absolute;
-      top: 40%; /* Centra verticalmente */
+      top: 48%; /* Centra verticalmente */
       left: 0;
       right: 0;
       text-align: center;
@@ -370,11 +372,15 @@ var mySwiper = new Swiper('.swiper-container', {
         if (window.pageYOffset > 90) {
           nav.classList.add('colorDropdown', 'shadow');
           
+          
         } else {
           nav.classList.remove('colorDropdown', 'shadow');
         }
       });
     </script>
+
+
+    
 
 
 
