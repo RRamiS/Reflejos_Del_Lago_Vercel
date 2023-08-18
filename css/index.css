@@ -214,9 +214,10 @@ font-size: 50px;
 
 }
 .text-box p{
-    font-size: 25px;
+    font-size: calc(1em + 0.5vw)
     
 }
+
 
 /* footer*/
 .logo{
