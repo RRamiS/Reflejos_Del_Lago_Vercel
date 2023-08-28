@@ -4,12 +4,58 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://reflejos-del-lago-vercel.vercel.app/</loc>
-  <lastmod>2023-08-19T13:52:20+00:00</lastmod>
+  <lastmod>2023-08-28T21:17:28+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://reflejos-del-lago-vercel.vercel.app/index.html</loc>
+  <lastmod>2023-08-28T21:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://reflejos-del-lago-vercel.vercel.app/html/servicios.html</loc>
+  <lastmod>2023-08-28T21:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://reflejos-del-lago-vercel.vercel.app/html/interiores.html</loc>
+  <lastmod>2023-08-28T21:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://reflejos-del-lago-vercel.vercel.app/html/exteriores.html</loc>
+  <lastmod>2023-08-28T21:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://reflejos-del-lago-vercel.vercel.app/html/costos.html</loc>
+  <lastmod>2023-08-28T21:17:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://reflejos-del-lago-vercel.vercel.app/html/cocina.html</loc>
+  <lastmod>2023-08-28T21:17:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://reflejos-del-lago-vercel.vercel.app/html/dormitorios.html</loc>
+  <lastmod>2023-08-28T21:17:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://reflejos-del-lago-vercel.vercel.app/html/ba%C3%B1os.html</loc>
+  <lastmod>2023-08-28T21:17:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://reflejos-del-lago-vercel.vercel.app/html/living.html</loc>
+  <lastmod>2023-08-28T21:17:28+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
