@@ -308,7 +308,23 @@
   }
  
 
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Animación de zoom */
+    margin-bottom: 20px;
+    cursor: pointer; /* Cambia el cursor al pasar el mouse sobre las imágenes */
+}
 
+.image-container:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+
+}
   
 
 

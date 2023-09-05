@@ -4,6 +4,10 @@
       padding: 0;
       margin: 0;
     }
+   
+  
+  /* Estilos adicionales si es necesario */
+  
   /* fondo de la pagina */
   body{
       font-family: 'Urbanist', sans-serif;
@@ -254,5 +258,54 @@
       background-color: #7a7a7a;
     }
 
+
+
+    .image-containerA {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 20px;
+      margin-right: -5px;
+  }
+  
+  .image-containerA img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+  }
+  
+  .image-containerA .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  
+  .image-containerA:hover img {
+      transform: scale(1.5);
+  }
+  
+  .image-containerA:hover .overlay {
+      opacity: 1;
+  }
+  
+  .image-containerA .text {
+      color: white;
+      font-size: 16px;
+      margin: 0;
+      padding: 10px;
+  }
+  
+  .containerA {
+      padding: 20px;
+  }
+  
     
    
