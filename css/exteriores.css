@@ -214,6 +214,7 @@
       color:#000000;
       margin: 0 10px;
       display: inline-block;
+      text-decoration: none; /* Agrega esta línea para eliminar el subrayado */
       transition: 0.3s;
     }
   footer .social_icon li a:hover{

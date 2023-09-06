@@ -208,6 +208,7 @@
       color:#000000;
       margin: 0 10px;
       display: inline-block;
+      text-decoration: none; /* Agrega esta línea para eliminar el subrayado */
       transition: 0.3s;
     }
   footer .social_icon li a:hover{
@@ -308,4 +309,20 @@
   }
   
     
-   
+  .image-containerB {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Animación de zoom */
+    margin-bottom: 20px;
+    cursor: pointer; /* Cambia el cursor al pasar el mouse sobre las imágenes */
+}
+
+.image-containerB:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
+
+.image-containerB img {
+    width: 100%;
+    height: auto;
+
+}
