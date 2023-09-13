@@ -210,7 +210,7 @@
       List-style: none;
     }
       footer .social_icon li a{
-      font-size: 2em;
+        font-size: 2.5em;
       color:#000000;
       margin: 0 10px;
       display: inline-block;
@@ -218,7 +218,7 @@
       transition: 0.3s;
     }
   footer .social_icon li a:hover{
-      transform: translateY(-10px);
+      transform: scale(1.5);
       color: #05eaff; 
     }
   .container__footer{
