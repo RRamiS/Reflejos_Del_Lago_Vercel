@@ -6,13 +6,13 @@ document.addEventListener("DOMContentLoaded", function () {
       if (window.scrollY > 10) {
         navbar.classList.add("navbar-scrolled");
         
-        imagen.src = "../img/LOGO CAMILA REFLEJO DEL LAGO CABAÑAS NEGRO PNG.png"; // Cambia la imagen por la segunda imagen
-        imagen2.src = "img/LOGO CAMILA REFLEJO DEL LAGO CABAÑAS NEGRO PNG.png";
+        imagen.src = "img/LOGO CAMILA REFLEJO DEL LAGO CABAÑAS NEGRO PNG.png"; // Cambia la imagen por la segunda imagen
+    
       } else {
         navbar.classList.remove("navbar-scrolled");
         
-        imagen.src = "../img/LOGO CAMILA REFLEJO DEL LAGO CABAÑAS DORADO PNG.png"; // Vuelve a la primera imagen si el usuario se desplaza hacia arriba
-        imagen2.src = "img/LOGO CAMILA REFLEJO DEL LAGO CABAÑAS DORADO PNG.png";
+        imagen.src = "./img/LOGO CAMILA REFLEJO DEL LAGO CABAÑAS DORADO PNG.png"; // Vuelve a la primera imagen si el usuario se desplaza hacia arriba
+       
       }
     });
   });
